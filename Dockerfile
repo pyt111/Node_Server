@@ -2,7 +2,7 @@
 # 使用node做为镜像
 FROM node:latest
 # 设置容器的工作目录为该目录
-WORKDIR /root/node_server
+WORKDIR /root/jenkins_node1/workspace/node_server
 
 COPY package*.json ./
 RUN npm install
