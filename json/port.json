@@ -1,0 +1,337 @@
+{
+    "upLoad": [{
+            "title": "即卸",
+            "ticket": "1150票",
+            "person": "35"
+        },
+        {
+            "title": "人工",
+            "ticket": "2113票",
+            "person": "51"
+        }
+    ],
+    "initialSort": [{
+        "title": "初分",
+        "ticket": "2166票",
+        "person": "50"
+    }],
+    "downLoad": [{
+            "ports": [{
+                    "title": "分拣1",
+                    "addres": "南京",
+                    "group": {
+                        "ticket": "2113票",
+                        "person": "35人"
+                    }
+                },
+                {
+                    "title": "分拣2",
+                    "addres": "上海",
+                    "group": {
+                        "ticket": "2133票",
+                        "person": "39人"
+                    }
+                },
+                {
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },
+                {
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                }
+            ]
+        },
+        {
+            "ports": [{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },
+                {
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                }
+            ]
+        },
+        {
+            "ports": [
+                {
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                }
+            ]
+        },
+        {
+            "ports": [
+                {
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                },{
+                    "title": "分拣3",
+                    "addres": "上海1",
+                    "group": {
+                        "ticket": "2100票",
+                        "person": "39人"
+                    }
+                }
+               
+            ]
+        }
+    ]
+
+}

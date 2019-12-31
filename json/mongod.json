@@ -1,0 +1,123 @@
+[{      
+        "lineType": "upLoad",
+        "title": "即卸",
+        "ticket": "1150票",
+        "person": "35"
+    },
+    {
+        "lineType": "upLoad",
+        "title": "即卸",
+        "ticket": "2113票",
+        "person": "35"
+    },
+    {
+        "lineType": "initialSort",
+        "title": "即卸",
+        "ticket": "2113票",
+        "person": "35"
+    },
+    {
+        "title": "分拣31",
+        "lineType": "downLoad",
+        "downLoadIndex": 0,
+        "addres": "南京",
+        "ticket": "2113票",
+        "person": "35人"
+    },
+    {
+        "title": "分拣32",
+        "lineType": "downLoad",
+        "downLoadIndex": 0,
+        "addres": "南京",
+        "ticket": "2113票",
+        "person": "35人"
+    },
+    {
+        "title": "分拣23",
+        "lineType": "downLoad",
+        "downLoadIndex": 0,
+        "addres": "南京",
+        "ticket": "2113票",
+        "person": "35人"
+    },
+    {
+        "title": "分拣41",
+        "lineType": "downLoad",
+        "downLoadIndex": 0,
+        "addres": "南京",
+        "ticket": "2113票",
+        "person": "35人"
+    },
+    {
+        "title": "分拣13",
+        "lineType": "downLoad",
+        "downLoadIndex": 0,
+        "addres": "南京",
+        "ticket": "2113票",
+        "person": "35人"
+    },
+    {
+        "title": "分拣11",
+        "lineType": "downLoad",
+        "downLoadIndex": 1,
+        "addres": "南京",
+        "ticket": "2113票",
+        "person": "35人"
+    },
+    {
+        "title": "分拣12",
+        "lineType": "downLoad",
+        "downLoadIndex": 1,
+        "addres": "南京",
+        "ticket": "2113票",
+        "person": "35人"
+    },
+    {
+        "title": "分拣7",
+        "lineType": "downLoad",
+        "downLoadIndex": 1,
+        "addres": "南京",
+        "ticket": "2113票",
+        "person": "35人"
+    },
+    {
+        "title": "分拣6",
+        "lineType": "downLoad",
+        "downLoadIndex": 1,
+        "addres": "南京",
+        "ticket": "2113票",
+        "person": "35人"
+    },
+    {
+        "title": "分拣5",
+        "lineType": "downLoad",
+        "downLoadIndex": 1,
+        "addres": "南京",
+        "ticket": "2113票",
+        "person": "35人"
+    },
+    {
+        "title": "分拣4",
+        "lineType": "downLoad",
+        "downLoadIndex": 1,
+        "addres": "南京",
+        "ticket": "2113票",
+        "person": "35人"
+    },
+    {
+        "title": "分拣3",
+        "lineType": "downLoad",
+        "downLoadIndex": 1,
+        "addres": "南京",
+        "ticket": "2113票",
+        "person": "35人"
+    },
+    {
+        "title": "分拣2",
+        "lineType": "downLoad",
+        "downLoadIndex": 1,
+        "addres": "南京",
+        "ticket": "2113票",
+        "person": "35人"
+    }
+]

@@ -1,0 +1,145 @@
+{
+    "list": {
+        "initialSort": {
+            "name": "初分口",
+            "value": [{
+                "endId": ["k3SpuvoPf5l7lIVc3VW1vXgXhCCZHrw3"],
+                "name": "新建端口11",
+                "index": 0,
+                "portId": "VRmTANpHx7CGJO5XH29QPEhE2ZgUSvlK"
+            }, {
+                "endId": ["rpIOmt5q2Nk8YArjhDcBn2gGnruXdc4n"],
+                "name": "新建端口",
+                "index": 1,
+                "portId": "0qi4Ox7AI0OTOGSJdlHB6KoTdKa3tLbY"
+            }, {
+                "endId": ["b9ZD4Bw781NHqekXfp41nkGI7rPSCR8t"],
+                "name": "新建端口",
+                "index": 2,
+                "portId": "ckSVAEa6s1d61QNaDCaFsb8M3g3tOOqP"
+            }, {
+                "endId": ["bu5bNPIwLftLdS0G9DukscoWuM6U8JDS"],
+                "name": "新建端口",
+                "index": 3,
+                "portId": "DsUEmag2SmZxEXt3QPMYxZuxwq0JJws8"
+            }, {
+                "endId": ["mfXD4P1HZ4ig3UUR3WgRxWNrQ0bhHf5f"],
+                "name": "新建端口",
+                "index": 4,
+                "portId": "QfQldYKR9jq0L6EKw6aINBQPWAl8YXY3"
+            }]
+        },
+        "upLoad": {
+            "name": "上货口",
+            "value": [{
+                "endId": ["9X8gIKmkg3PHwj4IOd5mGxRAEELn3CbK"],
+                "name": "新建端口",
+                "index": 0,
+                "portId": "rnj7vSs0tMTNxOIMRhAnK9TxdVfZoel3"
+            }, {
+                "endId": ["a5b9vUrt6VQ6P9qixR7YZqB1eJQkJrdD"],
+                "name": "新建端口2",
+                "index": 1,
+                "portId": "n7mx9K5C3adgCUTYFu456hYvRTeqgUwG"
+            }, {
+                "endId": ["NIafa24uegO3m5WC7twxH3Wb5NNEu9Ba"],
+                "name": "新建端口4",
+                "index": 2,
+                "portId": "xwVYKwxHandm9pvtODax9mpNvFWqBrNL"
+            }, {
+                "endId": ["8Ei6E3H5FZvt8nxFfASuPQNrh74lMKKu"],
+                "name": "新建端口1",
+                "index": 3,
+                "portId": "VG0q66NcQLiAmY21GfC2HMcG8xkcxOTO"
+            }, {
+                "endId": [],
+                "name": "新建端口",
+                "index": 4,
+                "portId": "tcqQ27k3bSkNNM7tbkbLgwui7iZflMfZ"
+            }]
+        },
+        "downLoad": {
+            "name": "下货口",
+            "value": [{
+                "endId": [],
+                "name": "新建端口",
+                "index": 0,
+                "portId": "Bgiio1Y634S13ARXcQ761I1dIemDJP8A"
+            }, {
+                "endId": [],
+                "name": "新建端口",
+                "index": 1,
+                "portId": "QZ9UDhRoTBlR8UisYdrK9CXgqwpKiPof"
+            }, {
+                "endId": [],
+                "name": "新建端口",
+                "index": 2,
+                "portId": "x4SABOWBQ3rgv108OAgAGgBpiB1KqWW8"
+            }, {
+                "endId": [],
+                "name": "新建端口",
+                "index": 3,
+                "portId": "Bm4ENXKTI16TeS9RxsjxQrHjdnjxNYcC"
+            }]
+        },
+        "downLine": {
+            "name": "下货线",
+            "value": [{
+                "endId": ["Bgiio1Y634S13ARXcQ761I1dIemDJP8A"],
+                "name": "新建端口",
+                "index": 0,
+                "portId": "k3SpuvoPf5l7lIVc3VW1vXgXhCCZHrw3"
+            }, {
+                "endId": ["QZ9UDhRoTBlR8UisYdrK9CXgqwpKiPof"],
+                "name": "新建端口",
+                "index": 1,
+                "portId": "b9ZD4Bw781NHqekXfp41nkGI7rPSCR8t"
+            }, {
+                "endId": ["x4SABOWBQ3rgv108OAgAGgBpiB1KqWW8"],
+                "name": "新建端口",
+                "index": 2,
+                "portId": "rpIOmt5q2Nk8YArjhDcBn2gGnruXdc4n"
+            }, {
+                "endId": [],
+                "name": "新建端口",
+                "index": 3,
+                "portId": "bu5bNPIwLftLdS0G9DukscoWuM6U8JDS"
+            }, {
+                "endId": [],
+                "name": "新建端口",
+                "index": 4,
+                "portId": "mfXD4P1HZ4ig3UUR3WgRxWNrQ0bhHf5f"
+            }]
+        },
+        "stockLine": {
+            "name": "进货线",
+            "value": [{
+                "endId": ["VRmTANpHx7CGJO5XH29QPEhE2ZgUSvlK"],
+                "name": "新建端口11",
+                "index": 0,
+                "portId": "6Zkgt5jhMehIJKkaMiLcDJZKO2iQIhh7"
+            }, {
+                "endId": ["ckSVAEa6s1d61QNaDCaFsb8M3g3tOOqP"],
+                "name": "222",
+                "index": 1,
+                "portId": "NIafa24uegO3m5WC7twxH3Wb5NNEu9Ba"
+            }, {
+                "endId": ["0qi4Ox7AI0OTOGSJdlHB6KoTdKa3tLbY"],
+                "name": "3333",
+                "index": 2,
+                "portId": "a5b9vUrt6VQ6P9qixR7YZqB1eJQkJrdD"
+            }, {
+                "endId": [],
+                "name": "新建端口",
+                "index": 3,
+                "portId": "8Ei6E3H5FZvt8nxFfASuPQNrh74lMKKu"
+            }, {
+                "endId": [],
+                "name": "新建端口",
+                "index": 4,
+                "portId": "9X8gIKmkg3PHwj4IOd5mGxRAEELn3CbK"
+            }]
+        }
+    },
+    "statusCode": 200
+}
