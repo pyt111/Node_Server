@@ -5,10 +5,9 @@ FROM node:latest
 WORKDIR /root/tt1
 
 COPY package*.json ./
-RUN npm install
 
 COPY . .
 # 向外提供3000端口
-EXPOSE 8080
+EXPOSE 8088
 # 容器创建完成后执行的命令
 CMD ["node","/root/node_server/bin/www.js"]
