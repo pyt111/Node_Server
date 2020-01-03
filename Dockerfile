@@ -1,6 +1,6 @@
 # Dockerfile
 # 使用alpine做为镜像
-FROM alpine:latest
+FROM node:latest
 # 设置容器的工作目录为该目录
 WORKDIR /root/tt1
 RUN cd /root/tt1
