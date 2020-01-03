@@ -5,7 +5,7 @@
 WORKDIR /root/tt1
 RUN apk add --no-cache --update nodejs nodejs-npm
 COPY package*.json ./
-RUN npm install --production
+RUN cd /root/tt1 && npm install --production
 
 
 FROM alpine
