@@ -5,7 +5,7 @@ FROM alpine:latest
 WORKDIR /root/tt1
 RUN cd /root/tt1
 COPY package*.json ./
-COPY . ./
+COPY . .
 
 # 向外提供3000端口
 EXPOSE 8088
