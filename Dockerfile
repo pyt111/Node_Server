@@ -1,18 +1,11 @@
 # Dockerfile
 # 使用alpine做为镜像
- FROM alpine AS builder
+FROM alpine:latest
 # 设置容器的工作目录为该目录
 WORKDIR /root/tt1
-RUN apk add --no-cache --update nodejs nodejs-npm
 COPY package*.json ./
-RUN cd /root/tt1 && npm install --production
-
-
-FROM alpine
-WORKDIR /root/tt1
-RUN apk add --no-cache --update nodejs nodejs-np
-COPY --from=builder /root/tt1/node_modules ./node_modules
-COPY . .
+RUN cd /root/tt1
+COPY . ./
 
 # 向外提供3000端口
 EXPOSE 8088
