@@ -156,10 +156,14 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="424" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1577319004625" />
-    <state x="554" y="200" key="CommitChangelistDialog2" timestamp="1578036004452">
+    <state x="673" y="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578039017618">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="554" y="200" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1578036004452" />
+    <state x="673" y="410" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1578039017618" />
+    <state x="554" y="200" key="CommitChangelistDialog2" timestamp="1578038969475">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="554" y="200" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1578038969475" />
     <state x="100" y="100" width="1720" height="1000" key="DiffContextDialog" timestamp="1578038964742">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -188,10 +192,18 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1899" height="336" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1577408530335" />
-    <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1578036006060">
+    <state x="192" y="109" key="MergeDialog" timestamp="1578039011620">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="560" y="340" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1578036006060" />
+    <state x="192" y="109" key="MergeDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1578039011620" />
+    <state x="673" y="323" key="MultipleFileMergeDialog" timestamp="1578039011667">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="673" y="323" key="MultipleFileMergeDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1578039011667" />
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1578038972042">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1578038972042" />
     <state x="749" y="524" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578035929443">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
