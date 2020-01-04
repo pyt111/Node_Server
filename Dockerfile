@@ -1,6 +1,6 @@
 # Dockerfile
 # 使用node做为镜像
-FROM alpine:latest AS builder
+FROM alpine AS builder
 # 设置容器的工作目录为该目录
 WORKDIR /root/tt1
 RUN apk add --no-cache --update nodejs nodejs-npm
