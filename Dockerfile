@@ -3,12 +3,14 @@
 FROM alpine:latest AS builder
 # 设置容器的工作目录为该目录
 WORKDIR /root/tt1
+RUN apk add --no-cache --update nodejs nodejs-npm
 
 COPY package*.json ./
 RUN npm install --production
 
 FROM alpine
 WORKDIR /root/tt1
+RUN apk add --no-cache --update nodejs nodejs-npm
 COPY --from=builder /root/tt1/node_modules ./node_modules
 COPY . .
 
