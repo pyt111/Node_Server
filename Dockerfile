@@ -5,7 +5,7 @@ FROM node:alpine AS builder
 WORKDIR /root/tt1
 
 COPY package*.json ./
-RUN npm install --production
+RUN npm install
 
 FROM node:alpine
 WORKDIR /root/tt1
