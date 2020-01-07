@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
     data:'111111111'
   };
 
-  res.sendFile(`${getStaticPath}/html/index.html`);
+  res.sendFile(`${getStaticPath}/vue-webapp/index.html`);
   // res.json(data)
   // res.render('index', { title: 'Express' });
 });
