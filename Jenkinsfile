@@ -11,6 +11,8 @@ pipeline {
       steps {
         echo '1111111'
         findBuildScans()
+        sh 'pwd'
+        build 'ppppp'
       }
     }
 
