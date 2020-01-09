@@ -25,7 +25,7 @@ mv /tmp/docker-jenkins-nodejs.tar.gz /var/jenkins_home/workspace/jenkins_node_se
         sshPublisher(publishers: [sshPublisherDesc(configName: 'pyt111_server', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: '''
         cd /root/tt2
         pwd
-        tar xzf /root/tt1/docker-jenkins-nodejs.tar.gz -C /root/tt2
+        tar xzf /root/tt2/docker-jenkins-nodejs.tar.gz -C /root/tt2
 
         sudo docker stop  jenkins_node_server_2 || true \\
         && sudo docker rm  jenkins_node_server_2 || true \\
