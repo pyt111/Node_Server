@@ -6,21 +6,21 @@ pipeline {
     }
 
   }
-  
-  environment {
-      CI = 'true' 
-  }
-  
   stages {
     stage('build') {
       steps {
         sh 'npm install'
       }
     }
-    stage('Test') { 
+
+    stage('Test') {
       steps {
-          sh './jenkins/scripts/test.sh' 
+        sh './jenkins/scripts/test.sh'
       }
     }
+
+  }
+  environment {
+    CI = 'true'
   }
 }
