@@ -19,6 +19,12 @@ pipeline {
       }
     }
 
+    stage('D') {
+      steps {
+        sshPublisher(alwaysPublishFromMaster: true)
+      }
+    }
+
   }
   environment {
     CI = 'true'
