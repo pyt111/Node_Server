@@ -9,7 +9,8 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh '''tar -zcvf /tmp/docker-jenkins-nodejs.tar.gz --exclude=".git" --exclude="*.gz" -C /var/jenkins_home/workspace/jenkins_node_server .
+        sh '''pwd
+tar -zcvf /tmp/docker-jenkins-nodejs.tar.gz --exclude=".git" --exclude="*.gz" -C /var/jenkins_home/workspace/jenkins_node_server .
 mv /tmp/docker-jenkins-nodejs.tar.gz /var/jenkins_home/workspace/jenkins_node_server'''
       }
     }
