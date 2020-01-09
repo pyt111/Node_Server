@@ -12,7 +12,7 @@ pipeline {
         echo '1111111'
         findBuildScans()
         sh 'pwd'
-        build 'ppppp'
+        build 'Node_Server_master'
       }
     }
 
