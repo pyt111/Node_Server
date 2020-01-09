@@ -10,6 +10,7 @@ pipeline {
     stage('build') {
       steps {
         echo '1111111'
+        findBuildScans()
       }
     }
 
