@@ -31,7 +31,7 @@ mv /tmp/docker-jenkins-nodejs.tar.gz /var/jenkins_home/workspace/jenkins_node_se
         && sudo docker rm  jenkins_node_server_2 || true \\
         && sudo docker rmi tt2/jenkins_node_server_image || true \\
         && sudo docker build  -t tt2/jenkins_node_server_image . \\
-        && sudo docker run --name jenkins_node_server_2 -d -p 8089:8089  tt2/jenkins_node_server_image''', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: 'tt2', remoteDirectorySDF: false, removePrefix: '', sourceFiles: 'docker-jenkins-nodejs.tar.gz')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
+        && sudo docker run --name jenkins_node_server_2 -d -p 8088:8088  tt2/jenkins_node_server_image''', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: 'tt2', remoteDirectorySDF: false, removePrefix: '', sourceFiles: 'docker-jenkins-nodejs.tar.gz')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
       }
     }
 
