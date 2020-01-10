@@ -24,6 +24,7 @@ pipeline {
                                 cleanRemote: false, excludes: '',
                                 execCommand: '''
                   cd /root/tt2
+                  rm -rf *
                   pwd
                   tar xzf /root/tt2/docker-jenkins-nodejs.tar.gz -C /root/tt2
                   sudo docker container stop jenkins_node_server_2 || true \\
