@@ -1,11 +1,5 @@
 pipeline {
-  agent {
-    docker {
-      image 'node:alpine'
-      args '-p 8089:8089'
-    }
-
-  }
+  agent any
   stages {
     stage('build') {
       steps {
@@ -23,12 +17,12 @@ pipeline {
     stage('D') {
       steps {
         sshPublisher(publishers: [
-          sshPublisherDesc(
-            configName: 'pyt111_server',
-            transfers: [
-              sshTransfer(
-                cleanRemote: false, excludes: '',
-                execCommand: '''
+                    sshPublisherDesc(
+                        configName: 'pyt111_server',
+                        transfers: [
+                            sshTransfer(
+                                cleanRemote: false, excludes: '',
+                                execCommand: '''
                   cd /root/tt2
                   pwd
                   tar xzf /root/tt2/docker-jenkins-nodejs.tar.gz -C /root/tt2
@@ -37,24 +31,21 @@ pipeline {
                   && sudo docker rmi tt2/jenkins_node_server_image || true \\
                   && sudo docker build  -t tt2/jenkins_node_server_image . \\
                   && sudo docker run --name jenkins_node_server_2 -d -p 8088:8088  tt2/jenkins_node_server_image''',
-                execTimeout: 120000,
-                flatten: false,
-                makeEmptyDirs: false,
-                noDefaultExcludes: false,
-                patternSeparator: '[, ]+',
-                remoteDirectory: 'tt2',
-                remoteDirectorySDF: false,
-                removePrefix: '',
-                sourceFiles: 'docker-jenkins-nodejs.tar.gz'
-              )
-            ],
-            usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)
-        ])
-      }
-    }
+                                execTimeout: 120000,
+                                flatten: false,
+                                makeEmptyDirs: false,
+                                noDefaultExcludes: false,
+                                patternSeparator: '[, ]+',
+                                remoteDirectory: 'tt2',
+                                remoteDirectorySDF: false,
+                                removePrefix: '',
+                                sourceFiles: 'docker-jenkins-nodejs.tar.gz'
+                              )
+                            ],
+                            usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)
+                        ])
+              }
+            }
 
-  }
-  environment {
-    CI = 'true'
-  }
-}
+          }
+        }
