@@ -3,15 +3,15 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh '''tar -zcvf /tmp/docker-jenkins-nodejs.tar.gz --exclude=".git" --exclude="*.gz" -C /var/jenkins_home/workspace/jenkins_node_server .
-              mv /tmp/docker-jenkins-nodejs.tar.gz /var/jenkins_home/workspace/jenkins_node_server'''
+        sh '''tar -zcvf /tmp/docker-jenkins-nodejs.tar.gz --exclude=".git" --exclude="*.gz" -C /var/jenkins_home/workspace/Node_Server_master .
+              mv /tmp/docker-jenkins-nodejs.tar.gz /var/jenkins_home/workspace/Node_Server_master'''
       }
     }
 
     stage('Test') {
       steps {
-        sh 'ls'
         sh 'pwd'
+        sh 'ls'
       }
     }
 
