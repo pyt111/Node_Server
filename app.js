@@ -40,7 +40,7 @@ app.use(express.static(utils.getStaticPath()));
 // app.use('/', indexRouter);
 // app.use('/', Particular);
 app.use('/', indexRouter);
-app.use('/web', indexRouter);
+app.use('/vue-web', indexRouter);
 app.use('/users', usersRouter);
 app.use('/Configuration', Configuration);
 app.use('/queryMeta', queryMeta);
