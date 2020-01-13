@@ -15,4 +15,4 @@ COPY . .
 # 向外提供3000端口
 EXPOSE 8088
 # 容器创建完成后执行的命令
-CMD ["node","/root/tt1/bin/www.js"]
+CMD ["node","/root/tt2/bin/www.js"]
