@@ -22,7 +22,7 @@ router.get('/', function(req, res, next) {
   // res.sendFile(nginxUrl);
   // res.json(data)
   // res.render('index', { title: 'Express' });
-  res.redirect('/index')
+  res.redirect('/vue-web/index')
 });
 
 module.exports = router;
